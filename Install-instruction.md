@@ -9,8 +9,17 @@
 8. `sudo apt-get install librealsense2-utils`
 9. `sudo apt-get install librealsense2-dev`
 10. `sudo apt-get install librealsense2-dbg`
+11. `sudo apt-get install libtclap-dev`
 
 
 
 # Running instruction:
 `realsense-viewer`
+
+# Building
+1. `cd /home/zahra/Documents/Robotics/realsense/librealsense/examples/capture/`
+2. `mkdir build`
+3. `cd build`
+4. `cmake ..`
+5. `make`
+6. `./rs-capture`
